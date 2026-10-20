@@ -1,0 +1,6 @@
+{
+  "name": "Budget Calculator",
+  "description": "Smart Expense Tracker & Budget Calculator with real-time math evaluation, presets, shopping list, and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
