@@ -198,6 +198,9 @@ interface BudgetCategoryDao {
     @Query("SELECT * FROM budget_categories WHERE name = :name LIMIT 1")
     suspend fun getCategoryByName(name: String): BudgetCategory?
 
+    @Query("SELECT * FROM budget_categories WHERE monthlyBudgetLimitCents < :limit")
+    suspend fun getCategoriesExceedingLimit(limit: Long): List<BudgetCategory>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(category: BudgetCategory): Long
 
