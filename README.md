@@ -2,9 +2,9 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Budget Calculator App
 
-This contains everything you need to run your app locally.
+An offline-first Android budget calculator built with Jetpack Compose, Room Database, and MVVM architecture.
 
 View your app in AI Studio: https://ai.studio/apps/ad1d2caf-1809-4139-9455-b284b5b93fa7
 
